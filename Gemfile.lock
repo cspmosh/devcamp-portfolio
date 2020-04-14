@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/cspmosh/turner_view_tool
+  revision: 094fdfa4bdeb64780ba9335bc170c90a2155be3c
+  specs:
+    turner_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -227,6 +233,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
+  turner_view_tool!
   tzinfo-data
   web-console (>= 3.3.0)
   webpacker (~> 4.0)
