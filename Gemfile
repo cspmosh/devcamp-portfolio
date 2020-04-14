@@ -51,3 +51,4 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.0.0'
 
 gem 'turner_view_tool', git: 'https://github.com/cspmosh/turner_view_tool'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
