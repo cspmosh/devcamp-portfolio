@@ -7,8 +7,15 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require("custom/htmlsortable")
+
+require("jquery")
+require("jquery-ui")
+
 import 'bootstrap'
+
+$(function(){
+	$('.sortable').sortable();
+});
 
 //= require jquery3
 //= require popper
