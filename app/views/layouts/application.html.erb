@@ -7,16 +7,14 @@
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>     
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-      <%= render "shared/application_nav" %>
-
-      
+      <%= render "shared/application_nav" %>      
       
       <%= yield %>      
       
