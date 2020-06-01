@@ -60,3 +60,4 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'carrierwave-aws', '~> 1.5'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
+gem 'redis', '~> 4.1', '>= 4.1.4'
