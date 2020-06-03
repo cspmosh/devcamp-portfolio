@@ -4,7 +4,6 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
-require("cable").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
@@ -42,6 +41,7 @@ $(function(){
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+//= require cable
 //= require jquery-ui
 //= require custom/htmlsortable
 //= require cocoon
