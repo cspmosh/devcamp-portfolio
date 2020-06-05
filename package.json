@@ -10,8 +10,10 @@
     "jquery": "^3.4.1",
     "jquery-ui-dist": "^1.12.1",
     "minimist": "^1.2.3",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "yarn": "^1.22.4"
   },
   "version": "0.1.0",
   "devDependencies": {
