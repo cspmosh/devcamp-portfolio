@@ -4,6 +4,14 @@
     <p class="mb-0">I currently work remotely as a full-stack developer for a company in Columbus, Ohio, where I've worked for the last 12 years developing desktop and web applications for Ohio's DD community. I am an active learner of all things development-related and I love to spend time learning and growing in new technologies and skills through personal projects and freelance work.</p>
   </div>
 
+  <div class="p-4 mb-3 bg-light rounded">
+  <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
+  
+
   <div class="p-4">
     <h4 class="font-italic">Elsewhere</h4>
     <ol class="list-unstyled social-links">
