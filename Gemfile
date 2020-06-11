@@ -61,3 +61,5 @@ gem 'carrierwave-aws', '~> 1.5'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 gem 'redis', '~> 4.1', '>= 4.1.4'
+gem 'redcarpet', '~> 3.5'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
