@@ -7,6 +7,23 @@
 		<div class="row">
 			<div class="col-md-4">		
 				<%= image_tag "profile.jpg", width: 230, alt: "profile image", class: 'profile-img' %>
+				<div class="skills">
+					<% @skills.each do |skill| %>
+						<div class="skill">						
+							<h4><%= skill.title %></h4>
+							<div class="progress">
+								<div 
+									class="progress-bar progress-bar-striped bg-warning"
+									role="progressbar"
+									aria-valuenow="<%= skill.percent_utilized %>"	
+									aria-valuemax="100"
+									style="width: <%= skill.percent_utilized %>%"	
+								></div>
+
+							</div>
+						</div>
+					<% end %>
+				</div>
 			</div>
 			<div class="col-md-8">
 				<p>I currently work remotely as a full-stack developer for a company in Columbus, Ohio, where I've worked for the last 12 years developing desktop and web applications for Ohio's DD community. I am an active learner of all things development-related and I love to spend time learning and growing in new technologies and skills through personal projects and freelance work.</p>
