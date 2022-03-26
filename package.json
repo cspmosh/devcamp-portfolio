@@ -9,7 +9,7 @@
     "bootstrap": "4.3.1",
     "jquery": "^3.4.1",
     "jquery-ui-dist": "^1.12.1",
-    "minimist": "^1.2.3",
+    "minimist": "^1.2.6",
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0",
